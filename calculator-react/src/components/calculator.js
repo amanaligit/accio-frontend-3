@@ -11,7 +11,7 @@ function Calculator() {
     const [history, setHistory] = useState(initialHist);
 
     const onkeydown = (event) => {
-        console.log(event.key)
+        // console.log(event.key)
         if (allowedChars.includes(event.key)) {
             setInput(input + event.key)
         }

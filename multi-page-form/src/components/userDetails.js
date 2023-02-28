@@ -17,7 +17,6 @@ function UserDetails({ setFormData, setPageNo, formData }) {
             setFormData(oldData => ({ ...oldData, ...newData }))
             setPageNo(1)
         }
-
     }
 
     return (
